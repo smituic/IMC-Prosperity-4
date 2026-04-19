@@ -23,7 +23,7 @@ class Trader:
 
     def bid(self):
         # Round 2 Market Access Fee bid.
-        return 21
+        return 75
 
     def _load_data(self, trader_data: str) -> dict:
         if not trader_data:
